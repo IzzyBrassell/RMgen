@@ -24,13 +24,19 @@ inquirer
       name: 'instructions',
       message: 'Enter the instructions on how to use the project:',
     },
+    {
+      type: 'input',
+      name: 'liscence',
+      message: 'What is the liscense of your project?'
+    }
   ])
   .then((answers) => {
     const filePath = answers.filePath;
     const projectName = answers.projectName;
     const description = answers.description;
     const instructions = answers.instructions;
-    const fileContent = `# ${projectName}\n\n${description}\n\n## Instructions\n${instructions}`;
+    const liscence = answers.liscence;
+    const fileContent = `# ${projectName}\n\n${description}\n\n## Instructions\n${instructions}\n\nThis project is liscensed under ${liscence}`;
 
     fs.writeFile(filePath, fileContent, (err) => {
       if (err) {
