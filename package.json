@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/IzzyBrassell/RMgen#readme",
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "fs": "^0.0.1-security"
   }
 }
