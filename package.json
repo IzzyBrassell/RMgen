@@ -1,0 +1,23 @@
+{
+  "name": "rmgen",
+  "version": "1.0.0",
+  "description": "read me generator",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzzyBrassell/RMgen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzzyBrassell/RMgen/issues"
+  },
+  "homepage": "https://github.com/IzzyBrassell/RMgen#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4"
+  }
+}
