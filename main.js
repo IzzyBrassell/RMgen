@@ -7,7 +7,7 @@ inquirer
     {
       type: 'input',
       name: 'filePath',
-      message: 'Enter the file path where you want to create the file:',
+      message: 'Enter the file path where you want to create the README.md (please include README.md in your Pathing):',
     },
     {
       type: 'input',
